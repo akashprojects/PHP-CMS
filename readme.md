@@ -56,6 +56,7 @@ Admin can log in via http://localhost/admin
 
 ### Credentials : 
 Username: admin
+
 Password: admin
 
 Feel free to contrinue and post your feedback
