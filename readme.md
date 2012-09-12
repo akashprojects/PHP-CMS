@@ -15,16 +15,6 @@ I have been playing around with Laravel for the past 2 months and recently devel
 7. User Management (Admin/Moderator/Author)
 8. Highlight Important Articles
 
-
-1.  Article Mgt
-2. Tag Mgt
-3. Comment Mgt
-4. Category & Sub Category Mgt
-5. Visitor Stats
-6. SEO Friendly
-7. User Management (Admin/Moderator/Author)
-8. Highlight Important Articles
-
 and much more..
 
 ### Requirements
