@@ -1,0 +1,315 @@
+
+@font-face {
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Droid Sans'), local('DroidSans'), url(../droid.woff) format('woff');
+}
+body
+{
+    background-color: #f2f2f2;
+    font: 15px Tahoma,Geneva,sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: -moz-linear-gradient(#e7e7df 0%, #e7e7df 300px) repeat scroll 0 0 transparent;
+    border-top: 1px solid #FFFFFF;
+
+}
+
+.comment
+{
+    background: #F6F6F6;
+}
+.commentunapproved
+{
+    background: #fbf8c0;
+}
+.inner-border th{
+    padding: 5px;
+    font-size: 13px;
+
+}
+
+.inner-border th a{
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+#adminbutton
+{
+    font-family: Droid Sans;
+    background: #D06D0C;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: bold;
+    cursor:pointer;
+    border: 0px;
+}
+#message
+{
+    margin: 0px 0px 0px 0px;
+    color:#898980;
+    padding: 0px;
+    font-size: 12px;
+
+}
+
+#ArticleTitle
+{
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+
+}
+#ArticleUrl
+{
+    font-size: 15px;
+    background: #ffc8aa;
+
+    padding: 4px 0 4px 4px;
+}
+#ArticleTitleUrl
+{
+    font-size: 15px;
+
+    background: #c6ffab;
+
+
+
+    padding: 4px 0 4px 0px;
+}
+
+input
+{
+    font-family: Droid Sans;
+    margin: 6px;
+    padding: 3px;
+}
+
+.adminmenumain
+{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #D8D8D8;
+
+
+
+}
+#Categories li, ul
+{
+    list-style: none;
+    list-style: square;
+}
+.articlesettings
+{
+
+}
+#articlesettings table tr td
+{
+
+    font-weight: bold;
+    border-top: 1px solid #DDDDDD;
+
+}
+
+#articlesettings #adminbutton
+{
+    padding: 5px 15px;
+}
+.articlesettings li p
+{
+    display: inline;
+    margin: 1px 0px;
+    padding: 0px;
+
+}
+.articlesettings li select{
+
+    font-family: Droid Sans;
+}
+#adminheader a{
+    color: #3f3f3f;
+    text-decoration: none;
+}
+#adminheader
+{
+    background: #f5f5f2;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: url("../img/header_bg.png") repeat-x scroll left bottom transparent;
+    padding-bottom: 15px;
+}
+
+#topbar
+{
+    background: #4b4b4b;
+    padding: 5px;
+    color: #fff;
+}
+
+#topbar  a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+#adminheader ul
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#notificationtext
+{
+    padding: 6px;
+
+}
+#successcolor{
+    background-color: #DBF09A;
+    color: #488C00;
+
+
+}
+#errorcolor{
+    background-color: #F6DCDC;
+    color: #D64C4C;
+
+
+}
+#admincontent textarea
+{
+    font-size: 14px;
+    font-family: Tahoma;
+
+}
+#admincontent td
+{
+
+    border-bottom: 1px solid #dddddd;
+    font-size: 13px;
+    padding: 5px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #d06d0c;
+
+}
+
+div.shadowed {
+    border: 1px solid #BBBBBB;
+}
+
+div.shadowed div.inner-boundary {
+    background-color: #f6f6f6;
+    background-image: url("../img/white_line.png");
+    background-repeat: repeat-x;
+    border: 1px solid #BBBBBB;
+    margin: -2px 0 0 -2px;
+}
+
+div.shadowed div.inner-boundary div.inner-border {
+    background-color: #F4F4F4;
+    border: 1px solid #f5f5f5;
+
+}
+
+.pagination
+{
+    background-color: #F4F4F4;
+    padding: 10px;
+}
+
+.pagination .current
+{
+    background-color: #D06D0C;
+    padding: 4px 6px;
+    color: #fff;
+}
+
+.pagination a
+{
+
+    padding: 4px 6px;
+    color: #000;
+}
+
+.fake
+{
+    color: #d9c99a;;
+}
+
+#alt
+{
+    background: #fbfbfb;
+}
+#admincontent h2
+{
+    font-size: 19px;
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+#admincontent h3
+{
+    font-size: 13px;
+    padding: 0px;
+    margin: 5px 0px;
+
+}
+
+#adminheader li {
+    display: inline;
+    line-height: 200%;
+    list-style: none outside none;
+    margin-right: 12px;
+    padding: 10px 10px 10px 0px;
+
+    text-align: center;
+    white-space: nowrap;
+}
+#admincontent
+{
+    margin: 5px 10px 10px 10px;
+    width: 930px;
+}
+
+#adminmenumainSelected a
+{
+    background: none repeat scroll 0 0 #636363;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 1px 1px #D8D8D8;
+    color: #FFFFFF;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#adminmenumainSelectedSub a
+{
+    background: none repeat scroll 0 0 #636363;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    padding: 5px;
+    text-decoration: none;
+
+}
+.adminmenusub
+{
+    margin: 3px;
+    padding: 3px;
+
+}
+
+.adminmenusubSelected
+{
+    margin: 3px;
+    background: #000;
+    color: #fff;
+    padding: 3px;
+}
