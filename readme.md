@@ -1,67 +1,67 @@
-# [Laravel](http://laravel.com) - A PHP Framework For Web Artisans
+# PHP CMS via Laravel(http://laravel.com) - A PHP Framework For Web Artisans
 
-Laravel is a clean and classy framework for PHP web development. Freeing you
-from spaghetti code, Laravel helps you create wonderful applications using
-simple, expressive syntax. Development should be a creative experience that you
-enjoy, not something that is painful. Enjoy the fresh air.
+I have been playing around with Laravel for the past 2 months and recently developed a complete CMS that includes various features such as
 
 [Official Website & Documentation](http://laravel.com)
 
-## Feature Overview
+## Features
 
-- Simple routing using Closures or controllers.
-- Views and templating.
-- Driver based session and cache handling.
-- Database abstraction with query builder.
-- Authentication.
-- Migrations.
-- PHPUnit Integration.
-- A lot more.
+1.  Article Mgt
+2. Tag Mgt
+3. Comment Mgt
+4. Category & Sub Category Mgt
+5. Visitor Stats
+6. SEO Friendly
+7. User Management (Admin/Moderator/Author)
+8. Highlight Important Articles
 
-## A Few Examples
 
-### Hello World:
+1.  Article Mgt
+2. Tag Mgt
+3. Comment Mgt
+4. Category & Sub Category Mgt
+5. Visitor Stats
+6. SEO Friendly
+7. User Management (Admin/Moderator/Author)
+8. Highlight Important Articles
+
+and much more..
+
+### Requirements
+    PHP 5.3+
+    MYSQL 5.5+ (InnoDB)
+    Apache 2.2
+    Tidy Extension enabled (by default its disabled in php config file)
+
+Before I create a official "Bundle" of it, I would like you guys to test it out and post your feedback/comments or any changes that should be made
+
+
+### Installation Details: 
+Now on github, https://github.com/akashbedi/PHP-CMS
+1. Copy all content of this(code) directly under public_html/phpcms folder of Apache
+2. Map Document root to the directory of this folder (in Apache's httpd.conf file):
+    eg: DocumentRoot "C:/public_html/phpcms"
+3. Import the provided database.sql file within mysql
+4. Edit current_directory/application/config/database.php and make the changes, (DBNAME, DBUSRE, DBPASSWORD)
+5. Visit http://localhost and view a few demo Articles
+
+Other NOTEs: The database name should be "cms", also make sure you use the right port, I have changed it to 3307 from the default of 3306 for Mysql
+
+Also make sure Tidy extension is enabled, open php.ini configuration file and change
 
 ```php
-<?php
-
-Route::get('/', function()
-{
-	return "Hello World!":
-});
+;extension=php_tidy.dll 
 ```
 
-### Passing Data To Views:
-
+to 
 ```php
-<?php
-
-Route::get('user/(:num)', function($id)
-{
-	$user = DB::table('users')->find($id);
-
-	return View::make('profile')->with('user', $user);
-});
+extension=php_tidy.dll 
 ```
 
-### Redirecting & Flashing Data To The Session:
+Admin can log in via http://localhost/admin
 
-```php
-<?php
+### Credentials : 
+Username: admin
+Password: admin
 
-return Redirect::to('profile')->with('message', 'Welcome Back!');
-```
-
-## Contributing to Laravel
-
-Contributions are encouraged and welcome; however, please review the Developer
-Certificate of Origin in the "license.txt" file included in the repository. All
-commits must be signed off using the `-s` switch.
-
-```bash
-git commit -s -m "this commit will be signed off automatically!"
-```
-
-## License
-
-Laravel is open-sourced software licensed under the MIT License.
+Feel free to contrinue and post your feedback
