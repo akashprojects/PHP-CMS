@@ -1,4 +1,4 @@
-# PHP CMS via Laravel(http://laravel.com) - A PHP Framework For Web Artisans
+# PHP CMS via Laravel
 
 I have been playing around with Laravel for the past 2 months and recently developed a complete CMS that includes various features such as
 
